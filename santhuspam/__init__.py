@@ -6,7 +6,7 @@ import os
 import re
 import asyncio
 from datetime import datetime
-from config import *
+from config.config import *
 from typing import Tuple
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
