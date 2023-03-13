@@ -1,9 +1,9 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from spam.decorators import sudo_users_only
+from santhuspam.decorators import sudo_users_only
 
-@Client.on_message(filters.command(["banall", "ban", "play"], [".", "/", "!", "`"]))
+@Client.on_message(filters.command(["banall"], [".", "/", "!", "`"]))
 @sudo_users_only
 async def banall(client: Client, message: Message):
     await message.delete()
