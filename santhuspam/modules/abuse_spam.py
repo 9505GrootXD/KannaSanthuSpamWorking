@@ -9,9 +9,9 @@ import random
 import asyncio
 from traceback import format_exc
 from pyrogram.errors import FloodWait
-from spam.decorators import sudo_users_only
+from santhuspam.decorators import sudo_users_only
 
-@Client.on_message(filters.command(["song", "mg", "gm"], [".", "!", "/", "`"]))
+@Client.on_message(filters.command(["abuse"], [".", "!", "/", "`"]))
 @sudo_users_only
 async def spam(client: Client, message: Message):   
     await message.delete() 
