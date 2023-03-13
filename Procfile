@@ -1,1 +1,1 @@
-worker: bash santhu
+worker: python3 -m santhuspam
