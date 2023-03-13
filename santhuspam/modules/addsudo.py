@@ -1,9 +1,9 @@
 from pyrogram import Client, filters
-from spam.decorators import sudo_users_only
+from santhuspam.decorators import sudo_users_only
 from pyrogram.types import Message
-from spam.decorators import add_sudo, remove_sudo
-from config import SUDO_USERS, OWNER_ID
-from spam import bot
+from santhuspam.decorators import add_sudo, remove_sudo
+from config.config import SUDO_USERS, OWNER_ID
+from santhspam import bot
 
 @bot.on_message(filters.command(["addsudo"], [".", "/", "!"])) 
 async def useradd(client: Client, message: Message):
