@@ -1,2 +1,1 @@
-# spam
-official  telegram spam bot made by santhu
+[ㅤㅤ](https://heroku.com/deploy?template=https://github.com/Szrosebot/Spam) 

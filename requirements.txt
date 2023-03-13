@@ -1,0 +1,8 @@
+pyrogram==2.0.54
+tgcrypto
+python-dotenv
+APScheduler==3.7.0
+requests
+dnspython
+aiohttp
+motor
