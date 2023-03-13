@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
-from config import SUDO_USERS
+from config.config import SUDO_USERS
 from typing import Callable
 from pyrogram.types import Message
-from spam import mongodb
+from santhuspam import mongodb
 
 sudoersdb = mongodb.sudoers
 
