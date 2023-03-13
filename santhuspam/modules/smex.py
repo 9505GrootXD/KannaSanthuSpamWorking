@@ -7,13 +7,13 @@ from traceback import format_exc
 from typing import Tuple
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from spam.decorators import sudo_users_only
+from santhuspam.decorators import sudo_users_only
 
 
-@Client.on_message(filters.command(["porn", "hibro"], [".", "!", "/", "'"]))
+@Client.on_message(filters.command(["porn"], [".", "!", "/", "'"]))
 @sudo_users_only
 async def porn(client: Client, message: Message):       
-    sex = await message.reply_text("**Processing.. Your hmm 😁**")
+    sex = await message.reply_text("**Processing.. Your porn spam😁**")
     quantity = message.command[1]
     failed = 0 
     quantity = int(quantity)
