@@ -3,7 +3,7 @@
 import time
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from config import ABUSE_SPAM
+from config.config import ABUSE_SPAM
 from typing import Tuple
 import random
 import asyncio
@@ -15,7 +15,7 @@ from santhuspam.decorators import sudo_users_only
 @sudo_users_only
 async def spam(client: Client, message: Message):   
     await message.delete() 
-    spam = await message.reply_text("**processing your song....**")
+    spam = await message.reply_text("**Process your abuse spam....**")
     quantity = message.command[1]
     failed = 0 
     quantity = int(quantity)
