@@ -8,16 +8,18 @@ import asyncio
 from datetime import datetime
 from config import *
 from typing import Tuple
-from spam import bot
-
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 
+clients = []
+ids = []
+
 API_ID = API_ID
 API_HASH = API_HASH 
 STRING_SESSION = STRING_SESSION
+BOT_TOKEN = BOT_TOKEN
 
 if not STRING_SESSION:
     logging.error("Authorized STRING SESSION error")
@@ -30,5 +32,21 @@ if not API_ID:
 if not API_HASH:
     logging.error("No ApiHash Found! Exiting!")
     quit(1) 
+    
+if not BOT_TOKEN:
+    logging.error("No bot token founded exiting from terminal")
+    quit(1) 
 
-bot.run() 
+bot = Client(
+    name="santhunibba",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
+    plugins=dict(root="santhuspam/assistant"),
+    in_memory=True,
+)
+
+if STRING_SESSION:
+   print("Client: Found.. Starting..📳")
+   client = Client(name="one", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION1, plugins=dict(root="santhuspam/modules"))
+   clients.append(client)
