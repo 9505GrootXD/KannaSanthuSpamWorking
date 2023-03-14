@@ -40,7 +40,7 @@ bot = Client(
 _mongo_async_ = _mongo_client_(MONGO_DB_URL)
 _mongo_sync_ = MongoClient(MONGO_DB_URL)
 
-mongodb = _mongo_async_.spam
-pymongodb = _mongo_sync_.spam
+mongodb = _mongo_async_.santhuspam
+pymongodb = _mongo_sync_.santhuspam
 
 dbb = _mongo_async_["SANTHUDB"]
