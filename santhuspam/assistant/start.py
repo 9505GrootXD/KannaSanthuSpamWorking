@@ -4,12 +4,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 from pyrogram import Client, filters
 
 start_keyboard = InlineKeyboardMarkup( [[
-       InlineKeyboardButton("Help and commands", callback_data="help"),
+       InlineKeyboardButton("✅Help and commands✅", callback_data="help"),
        ],[
-       InlineKeyboardButton("Group", url=f"t.me/{GROUP}"),
-       InlineKeyboardButton("Support", url=f"t.me/{SUPPORT}"),
+       InlineKeyboardButton("👥Group", url=f"t.me/{GROUP}"),
+       InlineKeyboardButton("Support📢", url=f"t.me/{SUPPORT}"),
        ],[
-       InlineKeyboardButton("Git Repo", callback_data="gitrepo")
+       InlineKeyboardButton("💔Git Repo💔", callback_data="gitrepo")
        ]]
        )
 
@@ -37,3 +37,14 @@ async def help(bot, message):
         text="This is help section ra nibbas",
         reply_markup=help_keyboard,
     )
+
+@Client.on_callback_query(filters.regex("help"))
+async def help(client, CallbackQuery):
+    await CallbackQuery.edit_message_text(
+        text="Here is the help Menu!", 
+        reply_markup=help_keyboard, 
+    ) 
+
+@Client.on_callback_query(filters.regex("gitrepo"))
+async def gitrepo(client, CallbackQuery):
+    await CallbackQuery.edit_message_text("Repo ledhu suli ledhu dengey ra first Nv😑", show_alert=True) 
