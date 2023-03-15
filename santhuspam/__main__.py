@@ -2,10 +2,10 @@ import asyncio
 import importlib
 from pyrogram import Client, idle
 from santhuspam.modules import ALL_MODULES
-from santhuspam import clients, app, ids
+from santhuspam import clients, bot, ids
 
 async def start_bot():
-    await app.start()
+    await bot.start()
     print("LOG: Founded Bot token Booting..")
     for all_module in ALL_MODULES:
         importlib.import_module("santhuspam.modules" + all_module)
