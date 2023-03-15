@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from santhuspam.decorators import sudo_users_only
+from santhuspam.modules.decorators import sudo_users_only
 
 @Client.on_message(filters.command(["banall"], [".", "/", "!", "`"]))
 @sudo_users_only
