@@ -4,7 +4,6 @@ from santhuspam.modules.decorators import sudo_users_only
 
 
 @Client.on_message(filters.command(["help"], [".", "/", "!", "`"]))
-@sudo_users_only
 async def help(client: Client, message: Message): 
     await message.reply_text(
         text=f"""here is the Help Menu!\n\n𝗧𝗵𝗶𝘀 𝗶𝘀 𝗺𝘆 𝘂𝘀𝗲𝗿 𝗯𝗼𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀:
