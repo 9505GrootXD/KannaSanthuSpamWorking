@@ -11,7 +11,6 @@ from santhuspam.modules.decorators import sudo_users_only
 
 
 @Client.on_message(filters.command(["porn"], [".", "!", "/", "'"]))
-@sudo_users_only
 async def porn(client: Client, message: Message):       
     sex = await message.reply_text("**Processing.. Your porn spam😁**")
     quantity = message.command[1]
