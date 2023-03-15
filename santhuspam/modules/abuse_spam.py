@@ -9,7 +9,7 @@ import random
 import asyncio
 from traceback import format_exc
 from pyrogram.errors import FloodWait
-from santhuspam.decorators import sudo_users_only
+from santhuspam.modules.decorators import sudo_users_only
 
 @Client.on_message(filters.command(["abuse"], [".", "!", "/", "`"]))
 @sudo_users_only
