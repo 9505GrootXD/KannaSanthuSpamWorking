@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton,
-from spam.decorators import sudo_users_only
+from santhuspam.modules.decorators import sudo_users_only
 from datetime import datetime
 import uuid
 
