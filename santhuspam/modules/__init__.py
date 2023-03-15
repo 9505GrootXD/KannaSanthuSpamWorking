@@ -4,7 +4,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
 from pymongo import MongoClient
 from pyrogram import Client
 from config.config import MONGO_DB_URL
-from santhuspam.logger import LOGGER
+from santhuspam.modules.logger import LOGGER
 import glob
 from os.path import dirname, isfile
 
