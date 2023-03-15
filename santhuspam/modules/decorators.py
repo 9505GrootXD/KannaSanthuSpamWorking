@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from config.config import SUDO_USERS
 from typing import Callable
 from pyrogram.types import Message
-from santhuspam import mongodb
+from santhuspam.modules import mongodb
 
 sudoersdb = mongodb.sudoers
 
