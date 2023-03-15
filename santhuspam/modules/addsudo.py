@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from santhuspam.decorators import sudo_users_only
 from pyrogram.types import Message
-from santhuspam.decorators import add_sudo, remove_sudo
+from santhuspam.modules.decorators import add_sudo, remove_sudo
 from config.config import SUDO_USERS, OWNER_ID
 from santhspam import bot
 
