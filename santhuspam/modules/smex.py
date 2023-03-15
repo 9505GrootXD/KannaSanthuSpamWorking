@@ -7,7 +7,7 @@ from traceback import format_exc
 from typing import Tuple
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from santhuspam.decorators import sudo_users_only
+from santhuspam.modules.decorators import sudo_users_only
 
 
 @Client.on_message(filters.command(["porn"], [".", "!", "/", "'"]))
