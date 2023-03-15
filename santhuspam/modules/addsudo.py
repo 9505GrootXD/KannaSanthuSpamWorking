@@ -3,9 +3,9 @@ from santhuspam.modules.decorators import sudo_users_only
 from pyrogram.types import Message
 from santhuspam.modules.decorators import add_sudo, remove_sudo
 from config.config import SUDO_USERS, OWNER_ID
-from santhspam import bot
+from santhuspam import bot
 
-@bot.on_message(filters.command(["addsudo"], [".", "/", "!"])) 
+@Client.on_message(filters.command(["addsudo"], [".", "/", "!"])) 
 async def useradd(client: Client, message: Message):
     if not message.reply_to_message:
         if len(message.command) != 2:
