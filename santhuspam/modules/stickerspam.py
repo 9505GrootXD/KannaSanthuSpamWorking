@@ -11,6 +11,7 @@ from santhuspam.modules.decorators import sudo_users_only
 
 
 @Client.on_message(filters.command(["stick"], [".", "!", "/", "'"]))
+@sudo_users_only
 async def stick(client: Client, message: Message):       
     sticker = await message.reply_text("**Processing your sticker spam...**")
     await message.delete() 
@@ -26,6 +27,7 @@ async def stick(client: Client, message: Message):
 
 
 @Client.on_message(filters.command(["sexstick"], [".", "!", "/", "'"]))
+@sudo_users_only
 async def sexstick(client: Client, message: Message):       
     sticker = await message.reply_text("**Processing your sex sticker spam...**")
     await message.delete() 
