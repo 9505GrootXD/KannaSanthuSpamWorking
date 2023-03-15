@@ -47,4 +47,4 @@ async def help(client, CallbackQuery):
 
 @Client.on_callback_query(filters.regex("gitrepo"))
 async def gitrepo(client, CallbackQuery):
-    await CallbackQuery.edit_message_text("Repo ledhu suli ledhu dengey ra first Nv😑", show_alert=True) 
+    await CallbackQuery.answer("Repo ledhu na lowda ledhu dengey ra first Nv😑", show_alert=True) 
