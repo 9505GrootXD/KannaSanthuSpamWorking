@@ -3,7 +3,7 @@ import importlib
 from pyrogram import Client, idle
 from santhuspam.modules import ALL_MODULES
 from santhuspam import clients, ids
-from santhuspam.modules import bot
+from santhuspam import bot
 
 async def start_bot():
     await bot.start()
