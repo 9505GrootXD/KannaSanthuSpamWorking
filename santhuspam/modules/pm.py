@@ -3,7 +3,7 @@ import asyncio
 from config.config import SUDO_USERS
 from pyrogram.methods import messages
 from santhuspam.modules.pmguard import get_arg, denied_users
-import database.pmguard as santhu
+import database.pm as santhu
 
 
 
