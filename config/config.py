@@ -14,8 +14,7 @@ OWNER_ID  = getenv("OWNER_ID", "5582883914")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
 GROUP  = getenv("GROUP", "BlackCatFighters")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
-PM_LOGGER = getenv("PM_LOGGER", "-1001837866009")
-LOG_GROUP = getenv("LOG_GROUP", "-1001837866009")
+
 
 PORN = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
