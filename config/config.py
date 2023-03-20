@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "9276915")) 
-API_HASH = getenv("API_HASH", "e8145ec48504292485900892fffaf890") 
+API_ID = int(getenv("API_ID", "23368498")) 
+API_HASH = getenv("API_HASH", "925429f27839524f37cc60b542e1d547") 
 BOT_TOKEN = getenv("BOT_TOKEN", "5842233190:AAF8F4za-ClANrHxsNlSeIf78vNZ7rl7v_o")
-STRING_SESSION = getenv("STRING_SESSION", "BQDEbNWHw-45n14dG3WrkedmRi75z0FiF9YQcjel39bjNMkwjmGWWgw3mTEc5Gq-FBA4CHBSrLOfzPCz8AafWzCG_OnZifjm6ZMQvohFw9eZgABZ3BqSVS1joJ4hrjXkb8JVRHR0hP1fm3qB9tr6FuxKXNKjsiGDHNczRjC4txFOam9l8qbUrHRLpxnQXPstl0cqH1e5jFWSx4oNKOuVL-x25CqB-g-Cfom8fCaGK2FZSERLxPfYoKjNLMx0a8QIv8F1APL9eZCnUhJPux1omAYgDpSdRgDfBXrCMQryAlTfF-ewJZlIU8Yi2HkBq89SLxhaG26kdwR7fzxkrENVp4EcAAAAAUvMGDwA") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5566634044").split()))
-OWNER_ID  = getenv("OWNER_ID", "5566634044")
+STRING_SESSION = getenv("STRING_SESSION", "AQAUFE7YqYnacdj8LICbsAYxDYmQ_8G1WjxnKgrmVHpaAzWq1tWlecfK04izKgkGHqYzcbeivJoVGPV5p8sjTYAvbUOYufMTV-M-PAvEkvkgHZopt02XzrR64eL2vTn-xrAndVqEQ250lbt7UiGkagwDSRoQefIBa9au1fa18ArTq1pqgKXp6QOK_ItMid9w10W1luKKqxQrOnSapRxni-YfGepfoPX9FGrWlNJZmoBmwMfmvAIktHp2Swxj0ObOViYgn3COXOwnLbfomo-6jAHdJMdCYii2uXVpDIURTzmjF6ZGQmdtocd2fTlbI2jFbmgc38vCy2weMkGsTEK_RexvAAAAAUzEDEoA") 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5582883914").split()))
+OWNER_ID  = getenv("OWNER_ID", "5582883914")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
 GROUP  = getenv("GROUP", "BlackCatFighters")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
