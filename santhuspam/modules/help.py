@@ -15,6 +15,9 @@ async def help(client: Client, message: Message):
 ✘ .h normal prank hack with userbot. 
 ✘ .stick spam normal stickers. 
 ✘ .help see 👀 help what do you need specific commands. 
+✘ .pmguard to use this command on your pm guard.
+✘ .approve to approve to user.
+✘ .disapprove to disapprove to user
 
 ©copyright infringement on Blackcat Network: @BlackCatFighters
 Owner: @blackcatxowner
