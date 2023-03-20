@@ -71,3 +71,37 @@ async def deny(client, message):
     chat_id = message.chat.id
     await santhu.deny_user(chat_id)
     await message.edit(f"**I have denied [you](tg://user?id={chat_id}) to PM me.**")
+    
+    
+@Client.on_message(
+    filters.private
+    & filters.create(denied_users)
+    & filters.incoming
+    & ~filters.service
+    & ~filters.me
+    & ~filters.bot
+)
+async def reply_pm(app: Client, message):
+    global FLOOD_CTRL
+    pmpermit, pm_message, limit, block_message = await santhu.get_pm_settings()
+    user = message.from_user.id
+    user_warns = 0 if user not in USERS_AND_WARNS else USERS_AND_WARNS[user]
+    if PM_LOGGER:
+        await app.send_message(PM_LOGGER, f"{message.text}")
+    if user_warns <= limit - 2:
+        user_warns += 1
+        USERS_AND_WARNS.update({user: user_warns})
+        if not FLOOD_CTRL > 0:
+            FLOOD_CTRL += 1
+        else:
+            FLOOD_CTRL = 0
+            return
+        async for message in app.search_messages(
+            chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
+        ):
+            await message.delete()
+        await message.reply(pm_message, disable_web_page_preview=True)
+        return
+    await message.reply(block_message, disable_web_page_preview=True)
+    await app.block_user(message.chat.id)
+    USERS_AND_WARNS.update({user: 0})
