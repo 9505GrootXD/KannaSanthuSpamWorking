@@ -38,7 +38,7 @@ if not BOT_TOKEN:
     quit(1) 
 
 bot = Client(
-    name="santhunibba",
+    "santhunibba",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
