@@ -43,7 +43,6 @@ bot = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
     plugins=dict(root="santhuspam/assistant"),
-    in_memory=True,
 )
 
 if STRING_SESSION:
