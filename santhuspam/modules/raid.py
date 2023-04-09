@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from data import THE_ALTS, RAID
-from config import OWNER_ID, SUDO_USERS
+from config.config import OWNER_ID, SUDO_USERS
 
 
 # RAIDING FEATURES
