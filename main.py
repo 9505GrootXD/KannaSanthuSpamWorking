@@ -1,4 +1,4 @@
-from config import API_ID, API_HASH, SESSIONS
+from config.config import API_ID, API_HASH, SESSIONS
 from pyrogram import Client, idle
 
 
