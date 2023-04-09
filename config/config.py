@@ -14,7 +14,7 @@ OWNER_ID  = getenv("OWNER_ID", "5942122658")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
 GROUP  = getenv("GROUP", "BlackCatFighters")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
-
+ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg") 
 
 PORN = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
