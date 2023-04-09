@@ -1,13 +1,13 @@
-from config.config import API_ID, API_HASH, SESSIONS
+from config.config import API_ID, API_HASH, STRING_SESSION
 from pyrogram import Client, idle
 
 
 CLIENTS = []
 
-for SESSION in SESSIONS:
-    if SESSION:
+for STRING_SESSION in STRING_SESSION:
+    if STRING_SESSION:
         client = Client(
-            session_name=SESSION,
+            session_name=STRING_SESSION,
             api_id=API_ID,
             api_hash=API_HASH,
             plugins=dict(root="santhuspam.modules"),
