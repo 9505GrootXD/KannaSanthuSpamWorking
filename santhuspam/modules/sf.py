@@ -3,10 +3,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from santhuspam import client
-from santhuspam.command import commandpro
 
-
-@Client.on_message(commandpro(["op", "x", ".op", "wow", "nice", "beautiful"]) & filters.me)
+@Client.on_message(filters.command(["op", "x", ".op", "wow", "nice", "beautiful"]) & filters.me)
 async def downloader(_, message: Message):
     targetcontent = message.reply_to_message
     downloadtargetcontent = await client.download_media(targetcontent)
