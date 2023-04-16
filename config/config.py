@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "22385686")) 
-API_HASH = getenv("API_HASH", "884b10776719e7ccb443352e69a45ea1") 
+API_ID = int(getenv("API_ID", "23624214")) 
+API_HASH = getenv("API_HASH", "cdda6bd7031d01454bad983a396bee24") 
 BOT_TOKEN = getenv("BOT_TOKEN", "6081082927:AAFjSryJLPsJwFtvdFRDIL6EN0b1FxdYddo")
 STRING_SESSION = getenv("STRING_SESSION", "AgC189uB0vJOZKFYwqdgs3o-Dq1IhmJ1j2ZTfE3DmhknO6pcR2s2mesdVZ-VY95K8AAxF2YCmXMlWaGcOdInpCyCodjEwOA9lvh_rZ2fhynTkag0JLfeXI4jOK1tt9n0A66gkscZz5n-HIErgaSfjCUInj2yoUDUX5FFzEECA6B9fBXYuSEZGlQ6i3-0Qs9qslaJJy-wei30p-V1NaynBKkV1cWVZ58qk2tcsqhYC_QKsRBZVKhgHr08NBC9-u1NjadEbvVzl3NvelU73iA6tLOBxIEyqVudrOfJY_A1TVclwSViQiYBI1sxGHUg-mLx_SHKVhqxSdYVItP283D_ZWEZAAAAAW6f1l4A") 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6150936158").split()))
