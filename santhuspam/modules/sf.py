@@ -18,12 +18,4 @@ async def screenshot(bot: Client, message: Message):
     )
 
 
-__MODULE__(
-    "screenshot",
-    [
-        [
-            ".screenshot",
-            "Send a notification in a private chat (not secret) to annoy or troll your friends.",
-        ],
-    ],
-)
+
