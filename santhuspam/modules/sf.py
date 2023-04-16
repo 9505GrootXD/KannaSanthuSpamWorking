@@ -8,11 +8,11 @@ from pyrogram.types import Message
 async def screenshot(bot: Client, message: Message):
     await asyncio.gather(
         message.delete(),
-        bot.send(
+        client.send(
             functions.messages.SendScreenshotNotification(
-                peer=await bot.resolve_peer(message.chat.id),
+                peer=await client.resolve_peer(message.chat.id),
                 reply_to_msg_id=0,
-                random_id=bot.rnd_id(),
+                random_id=client.rnd_id(),
             )
         ),
     )
