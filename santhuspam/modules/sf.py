@@ -1,20 +1,19 @@
-import os
 import asyncio
-from pyrogram import Client, filters
+
+from pyrogram import filters, Client 
+from pyrogram.raw import functions
 from pyrogram.types import Message
-from santhuspam import client
-
-@Client.on_message(filters.command(["op", "x", ".op", "wow", "nice", "beautiful"]) & filters.me)
-async def downloader(_, message: Message):
-    targetcontent = message.reply_to_message
-    downloadtargetcontent = await client.download_media(targetcontent)
-    send = await client.send_document("me", downloadtargetcontent)
-    os.remove(downloadtargetcontent)
 
 
-__MODULE__ = "Sᴇʟғ"
-__HELP__ = f"""
-**🥀 Dᴏᴡɴʟʟᴏᴀᴅ Aɴʏ Sᴇʟғ-Dᴇsᴛʀᴜᴄᴛ Mᴇᴅɪᴀ Aɴᴅ Sᴀᴠᴇ Iᴛ Tᴏ Yᴏᴜʀ Sᴀᴠᴇ Mᴇssᴀɢᴇ ✨**
-**ᴜsᴀɢᴇ:**
-`op|.op` - **Rᴇᴘʟʏ Tᴏ Sᴇʟғ-Dᴇsᴛʀᴜᴄᴛ Pʜᴏᴛᴏ Oʀ Vɪᴅᴇᴏ Tᴏ Dᴏᴡɴʟᴏᴀᴅ.**
-"""
+@Client.on_message(filters.command(["screenshot", "ss"], ".") & filters.private & filters.me)
+async def screenshot(client: Client, message: Message):
+    await asyncio.gather(
+        message.delete(),
+        client.send(
+            functions.messages.SendScreenshotNotification(
+                peer=await client.resolve_peer(message.chat.id),
+                reply_to_msg_id=0,
+                random_id=bot.rnd_id(),
+            )
+        ),
+    )
