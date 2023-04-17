@@ -47,9 +47,5 @@ bot = Client(
 
 if STRING_SESSION:
    print("Client: Found.. Starting..📳")
-   client = Client(
-          api_id=API_ID,
-          api_hash=API_HASH,
-          string_session=STRING_SESSION,
-          plugins=dict(root="santhuspam/modules"))
+   client = Bot(STRING_SESSION, API_ID, API_HASH, plugins=dict(root="santhuspam.modules"))
    clients.append(client)
