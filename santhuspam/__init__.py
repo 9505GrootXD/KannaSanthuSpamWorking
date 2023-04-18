@@ -37,9 +37,16 @@ if not BOT_TOKEN:
     logging.error("No bot token founded exiting from terminal")
     quit(1) 
 
-bot = Client("santhunibba", API_ID, API_HASH, BOT_TOKEN, plugins=dict(root="santhuspam.assistant"))
+bot = Client(
+    "santhunibba",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
+    plugins=dict(root="santhuspam/assistant"),
+    in_memory=True,
+)
 
 if STRING_SESSION:
    print("Client: Found.. Starting..📳")
-   client = Client(STRING_SESSION, API_ID, API_HASH, plugins=dict(root="santhuspam.modules"))
+   client = Client(name="one", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION, plugins=dict(root="santhuspam/modules"))
    clients.append(client)
