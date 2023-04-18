@@ -19,7 +19,15 @@ async def hack(client: Client, message: Message):
     )
     await asyncio.sleep(0.5)
     await msg.edit_text(
-        text=f"**𝗧𝗮𝗿𝗴𝗲𝘁 {message.from_user.mention()} 𝗱𝗲𝗮𝘁𝗹𝗶𝘀 𝘀𝗮𝘃𝗲𝗱 𝗼𝗻 𝗺𝘆 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘁𝗼 𝗿𝗲𝗺𝗼𝘃𝗲 𝗽𝗮𝘆 𝟭𝟬$ 𝗧𝗼 `kannaxd@ybl`....**",
+        text=f"`>> 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗶𝗻𝗴 `Telegram-Bruteforce-8.3.2.tar.gz (1.9MiB)``",
+    )
+    await asyncio.sleep(0.5)
+    await msg.edit_text(
+        text=f">> 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱 ✓`",
+    )
+    await asyncio.sleep(0.5)
+    await msg.edit_text(
+        text=f"**𝗧𝗮𝗿𝗴𝗲𝘁 𝗹𝗼𝗰𝗸𝗲𝗱 𝘀𝗮𝘃𝗲 𝘁𝗼 𝗺𝘆 𝗺𝗮𝘀𝘁𝗲𝗿 {message.from_user.mention()}😈 𝘀𝗮𝘃𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗧𝗼 𝗿𝗲𝗺𝗼𝘃𝗲 𝗽𝗮𝘆 𝟭𝟬$ 𝗧𝗼 `kannaxd@ybl`....**",
     )
     
 
