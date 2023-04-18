@@ -8,7 +8,7 @@ from datetime import datetime
 @Client.on_message(filters.command(["hack"], [".", "/", "!", "`"]))
 async def hack(client: Client, message: Message):
     await message.delete()
-    userid = m.from_user.mention
+    userid = message.from_user.mention
     msg = await message.reply_text(text="𝗕𝗼𝘁𝘁𝘁𝗶𝗻𝗴 𝗺𝘆 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲....🔥")
     await msg.edit_text(
         text=f"𝗰𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗻𝗴 𝘁𝗵𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻..🧐🧐🧐",
@@ -19,7 +19,7 @@ async def hack(client: Client, message: Message):
     )
     await asyncio.sleep(0.5)
     await msg.edit_text(
-        text=f"**𝗧𝗮𝗿𝗴𝗲𝘁 {m.from_user.mention()} 𝗱𝗲𝗮𝘁𝗹𝗶𝘀 𝘀𝗮𝘃𝗲𝗱 𝗼𝗻 𝗺𝘆 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘁𝗼 𝗿𝗲𝗺𝗼𝘃𝗲 𝗽𝗮𝘆 𝟭𝟬$ 𝗧𝗼 `kannaxd@ybl`....**",
+        text=f"**𝗧𝗮𝗿𝗴𝗲𝘁 {message.from_user.mention()} 𝗱𝗲𝗮𝘁𝗹𝗶𝘀 𝘀𝗮𝘃𝗲𝗱 𝗼𝗻 𝗺𝘆 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘁𝗼 𝗿𝗲𝗺𝗼𝘃𝗲 𝗽𝗮𝘆 𝟭𝟬$ 𝗧𝗼 `kannaxd@ybl`....**",
     )
     
 
