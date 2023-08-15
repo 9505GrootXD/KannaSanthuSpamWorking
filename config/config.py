@@ -15,7 +15,7 @@ MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://kannaxd:kannaxd@cluster0.yg
 GROUP  = getenv("GROUP", "BlackCatServer")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg")
-PORN =
+PORN = [
         "https://telegra.ph/file/b7a1a42429a65f64e67af.mp4",
         "https://telegra.ph/file/dc3da5a3eb77ae20fa21d.mp4",
         "https://telegra.ph/file/7b15fbca08ae1e73e559c.mp4",
