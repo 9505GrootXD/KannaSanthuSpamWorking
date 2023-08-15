@@ -32,7 +32,7 @@ bot = Client(
     ":spambot:",
     api_id=API_ID,
     api_hash=API_HASH,
-    session_string=STRING_SESSION, 
+    STRING_SESSION, 
     plugins=dict(root="santhuspam")
 ) 
 
