@@ -5,19 +5,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "23807357")) 
-API_HASH = getenv("API_HASH", "44b35a8ea12db55d64016f70e8c4d422") 
-BOT_TOKEN = getenv("BOT_TOKEN", "6168075494:AAE2nJ_QLv5t3LrtthAIiPuSW_3Olw-SxlI")
-STRING_SESSION = getenv("STRING_SESSION", "BQA4-UEEcwDO97xyOI5NFHZkeDe_4kdywVngxolqiVfYYj843LE_ElOXfOOVLv-N-M-JmGswHifDLqjLnH9998NjJj2Qlv_Hb2bfgOz8nN9MwBtr4Vyt0cvXKyJ5l8EQqJ506CpjLNJ4bgjhiWkq4SoOmGWbYiIHTlj_vcQs7YKtmT_IenP_YvkxWsRPPWUNRiVvcM3k2LQbSZRkDANdDUXxsRvYYWXoP8LcMYGzrUV4-CcOyikeYF2AcmzJC80i8owQ6cOg0jKqfHnapgc8UuCGRakkrfFxWLbtvMO1qsSBHoQ69y2YOtg-6av7_XP8G-myg7F51g6JhvCjFxIkvRAiAAAAAW-n5zoA") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6168241978").split()))
-OWNER_ID  = getenv("OWNER_ID", "6150936158")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
-GROUP  = getenv("GROUP", "BlackCatFighters")
+API_ID = int(getenv("API_ID", "8040876")) 
+API_HASH = getenv("API_HASH", "51b7289f947e12ff7752fddec3b78216") 
+BOT_TOKEN = getenv("BOT_TOKEN", "6168075494:AAFoA6Xg40_LoRIojR6u8b2WVQujg00wppo")
+STRING_SESSION = getenv("STRING_SESSION", "BQAEehw9A37Yc_JHpfBZMyad51K9F1bYkZa5a93xNjinu0qGYLG20dpN50c_0pKfvjhkqcTfcaVypqERl8tfAQPPNce49kUkn8Rnw0LcPGy7J9g59a6A8neBv9L4VqAbh7pRpdrxb2I476z62uGA2HcqrSMpJ7FcwCkBz0yyDpSgYuxWuBh9tEgRBEwiviq2jY7313VO6DQxOs4cJ7hcBzEXUm_4kB1llwjh2wntKk6RJ7eKLIt3HFoaVxE-QcXv-Dd5FI2qgmRRNusTmM9LOdXFxtW9CYI1CWXFToII_ZUArbApOgDUUnaCWpOmuW0gsSvmP5WNpJGAofWzHwiRTeGIAAAAAUHpo7EA") 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5400798129").split()))
+OWNER_ID  = getenv("OWNER_ID", "5400798129")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://kannaxd:kannaxd@cluster0.yggvine.mongodb.net/?retryWrites=true&w=majority")
+GROUP  = getenv("GROUP", "BlackCatServer")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
-ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg") 
-
-PORN = [
-        "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
+ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg")
+PORN =
         "https://telegra.ph/file/b7a1a42429a65f64e67af.mp4",
         "https://telegra.ph/file/dc3da5a3eb77ae20fa21d.mp4",
         "https://telegra.ph/file/7b15fbca08ae1e73e559c.mp4",
