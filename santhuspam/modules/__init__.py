@@ -30,8 +30,8 @@ __all__ = ALL_MODULES + ["ALL_MODULES"]
 
 bot = Client(
     ":spambot:",
-    api_id=API_ID,
-    api_hash=API_HASH,
+    API_ID,
+    API_HASH,
     STRING_SESSION, 
     plugins=dict(root="santhuspam")
 ) 
