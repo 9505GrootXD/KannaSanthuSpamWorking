@@ -11,7 +11,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6168075494:AAFoA6Xg40_LoRIojR6u8b2WVQujg00wppo"
 STRING_SESSION = getenv("STRING_SESSION", "BQEksaEARxtYfaFQRKXp_rNWE7bdhyyh4YGM3HGtzTQRLqztOzr_Cmm3XsSDcQoH6GfMjJA3S2b00mCaqKQlxqGPklzU_UouSnZdI3dsUK1pFu3D3HQnVLuzwgTrCBqxIGf7t8XmW37oKaMUNrljiezmbIzbUiNafmoBRtmjZoTUsQC_xJNaUCoEe8xF-XK765D9M7npH7972DbUpr5qCHA792Il93K4oWJIcu9Qw8cGRwTARtnpJIlLSttN025hU-2lGoVhlNZDNpy98ZuiEKQmmo_OlLqEMjt4WHf-IIFMfeETnwKprl7R7Ya5M4kghZt_maRbn7TQ819S3uU_70z0iQwqMwAAAAFB6aOxAA") 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5400798129").split()))
 OWNER_ID  = getenv("OWNER_ID", "5400798129")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://kannaxd:kannaxd@cluster0.yggvine.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://galaxina:galaxina@galaxina.ejvfqm7.mongodb.net/?retryWrites=true&w=majoritytgshadow_fighters")
 GROUP  = getenv("GROUP", "BlackCatServer")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg")
