@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "8040876")) 
-API_HASH = getenv("API_HASH", "51b7289f947e12ff7752fddec3b78216") 
+API_ID = int(getenv("API_ID", "26361254")) 
+API_HASH = getenv("API_HASH", "f4d70302fe7eb9faf8541fee66a549b7") 
 BOT_TOKEN = getenv("BOT_TOKEN", "6168075494:AAFoA6Xg40_LoRIojR6u8b2WVQujg00wppo")
-STRING_SESSION = getenv("STRING_SESSION", "BQEksaEARxtYfaFQRKXp_rNWE7bdhyyh4YGM3HGtzTQRLqztOzr_Cmm3XsSDcQoH6GfMjJA3S2b00mCaqKQlxqGPklzU_UouSnZdI3dsUK1pFu3D3HQnVLuzwgTrCBqxIGf7t8XmW37oKaMUNrljiezmbIzbUiNafmoBRtmjZoTUsQC_xJNaUCoEe8xF-XK765D9M7npH7972DbUpr5qCHA792Il93K4oWJIcu9Qw8cGRwTARtnpJIlLSttN025hU-2lGoVhlNZDNpy98ZuiEKQmmo_OlLqEMjt4WHf-IIFMfeETnwKprl7R7Ya5M4kghZt_maRbn7TQ819S3uU_70z0iQwqMwAAAAFB6aOxAA") 
+STRING_SESSION = getenv("STRING_SESSION", "AQGSPaYADCOSAh5BaEAv-Z0JSxriGBeREy6ihhtQgUdqLnrFMhv0j2NW85n67SaBtWS5qRVBG7LE72qgIDq5GTU5bOEvQBhfPVl25eL1ZegGAdDYRNWIwEim3KMGprxI3HEoeQKyW6NAfcHbEBP-Tb9OzSdnEWG18nD_8pwkdLE4c7aAtkVjGfItn65IOK6E4pb66Ue0xNiKIuwj27-NGo2X8V_g-IHMXm427rA1FKMbuDqMSEb3Nm64Hfqh9Co3ynCCJy7s0Flb74Uz_rDuuAfEFIjxX0NKyuIFxSiQBlRzjw2RiQ7qkHCE_Gre2I3YM21VWVYMWznn-cskJqoNLoebPn7lGQAAAAFqtSyFAA") 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5400798129").split()))
-OWNER_ID  = getenv("OWNER_ID", "5400798129")
+OWNER_ID  = getenv("OWNER_ID", "6085225605")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://galaxina:galaxina@galaxina.ejvfqm7.mongodb.net/?retryWrites=true&w=majoritytgshadow_fighters")
 GROUP  = getenv("GROUP", "BlackCatServer")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
