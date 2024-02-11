@@ -4,9 +4,12 @@ from pyrogram import Client, idle
 from santhuspam.modules import ALL_MODULES
 from santhuspam import clients, ids
 from santhuspam import bot
+from santhuspam.modules import call_py
+from pytgcalls import idle 
 
 async def start_bot():
     await bot.start()
+    await call_py.start()
     print("LOG: Founded Bot token Booting..")
     for all_module in ALL_MODULES:
         importlib.import_module("santhuspam.modules" + all_module)
@@ -20,6 +23,5 @@ async def start_bot():
         except Exception as e:
             print(f"{e}")
     await idle()
-
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_bot())
