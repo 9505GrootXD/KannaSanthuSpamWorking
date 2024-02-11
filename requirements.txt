@@ -6,3 +6,4 @@ requests
 dnspython
 aiohttp
 motor
+py-tgcalls==1.2.2
