@@ -7,7 +7,7 @@ from config.config import MONGO_DB_URL
 from santhuspam.modules.logger import LOGGER
 import glob
 from os.path import dirname, isfile
-
+from pytgcalls import PyTgCalls, idle
 
 def __list_all_modules():
     work_dir = dirname(__file__)
@@ -30,11 +30,13 @@ __all__ = ALL_MODULES + ["ALL_MODULES"]
 
 bot = Client(
     ":spambot:",
-    API_ID,
-    API_HASH,
-    STRING_SESSION, 
-    plugins=dict(root="santhuspam")
+    api_id=API_ID,
+    api_hash=API_HASH,
+    session_string=STRING_SESSION, 
+    plugins=dict(root="santhuspam.modules")
 ) 
+call_py = PyTgCalls(bot)
+
 
 
 _mongo_async_ = _mongo_client_(MONGO_DB_URL)
