@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "26361254")) 
-API_HASH = getenv("API_HASH", "f4d70302fe7eb9faf8541fee66a549b7") 
-BOT_TOKEN = getenv("BOT_TOKEN", "6168075494:AAFoA6Xg40_LoRIojR6u8b2WVQujg00wppo")
-STRING_SESSION = getenv("STRING_SESSION", "AQGSPaYADCOSAh5BaEAv-Z0JSxriGBeREy6ihhtQgUdqLnrFMhv0j2NW85n67SaBtWS5qRVBG7LE72qgIDq5GTU5bOEvQBhfPVl25eL1ZegGAdDYRNWIwEim3KMGprxI3HEoeQKyW6NAfcHbEBP-Tb9OzSdnEWG18nD_8pwkdLE4c7aAtkVjGfItn65IOK6E4pb66Ue0xNiKIuwj27-NGo2X8V_g-IHMXm427rA1FKMbuDqMSEb3Nm64Hfqh9Co3ynCCJy7s0Flb74Uz_rDuuAfEFIjxX0NKyuIFxSiQBlRzjw2RiQ7qkHCE_Gre2I3YM21VWVYMWznn-cskJqoNLoebPn7lGQAAAAFqtSyFAA") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6085225605").split()))
-OWNER_ID  = getenv("OWNER_ID", "6085225605")
+API_ID = int(getenv("API_ID", "26163868")) 
+API_HASH = getenv("API_HASH", "dfa95b19b7a80f8b2f13d6fbb95e5371") 
+BOT_TOKEN = getenv("BOT_TOKEN", "6882583635:AAH--Qq-zhpDVYls1jcxvuMtHhgchkltnyI")
+STRING_SESSION = getenv("STRING_SESSION", "BACNtJAdTfaq0FAhU7gG-VVQZDtuebqBLkJSkaR9eYMaelh5-FRK9KfCtQLVjyqtI4AsOm9CjySdkzo2X19_hylx54keYhXAohobsaHg-HRItQXcOkNL2AwSxeFvrgvirw5MBD70nWvjatFk6yAMtH_NwanRgE-wCqeU504iptHjecgMisxY8EjI7cUS2RA3pyd3iP9sKC6or4IzwYYPyWeGGQpc5t-FHYlyp2iHa1-UnUhBtuA7KVtvMPurCjS-uFownnnBBbhMmbMAiYddjqvGfoTaCs1PGb6FRMnu_4LXZfaCQ6Pw3jX9r8r33cvcd7mXIQvGQuxK2Mba5_6Ot9MrAAAAAZXLA90A") 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6808077277").split()))
+OWNER_ID  = getenv("OWNER_ID", "6808077277")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://galaxina:galaxina@galaxina.ejvfqm7.mongodb.net/?retryWrites=true&w=majoritytgshadow_fighters")
 GROUP  = getenv("GROUP", "BlackCatServer")
 SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
