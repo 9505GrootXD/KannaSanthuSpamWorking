@@ -89,6 +89,7 @@ ABUSE_SPAM = [
    "ni amma 👅",
    "ni akka 👅",
    "ni ammama 👅",
+   "ni neethulu na athulatho samanam",
    "ni amma valla chelli 👅",
    "ni mardhal 👅",
    "ni lover gudha 👅",
