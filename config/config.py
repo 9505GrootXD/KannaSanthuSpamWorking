@@ -5,15 +5,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "26163868")) 
-API_HASH = getenv("API_HASH", "dfa95b19b7a80f8b2f13d6fbb95e5371") 
-BOT_TOKEN = getenv("BOT_TOKEN", "6882583635:AAH--Qq-zhpDVYls1jcxvuMtHhgchkltnyI")
-STRING_SESSION = getenv("STRING_SESSION", "BAEksaEALQFj_HMG0hb1H01qznM287jsoK2fDhRWoKMPHEioa9FkcsKsgEnG6meeiambrHHyk9O5BYktRcDFdBY6AArEHympWH4woOGx4AE_-SOWkjCGfNot1JZp6sczSDwwDe4Pfs344EfAFPw2iDWWZVz-2vm6fPFnNI_Oc46V_7bZpkSYmHovGZqfthg9693NJP_9SySiGqPNSQFlabwhA9LeK6JUpRhZQzSyd-4k2ctapm0l5Nx0_qJ2otNp4s-YrzbEFSbrKoJnwxgqyDzo1Jd9wBn_irqYG1wvnNpNYtVpmpwBLFKUosDpuHwsJ6uFuR-D7h_9UIDaUtBfXMUzjn8heAAAAAGVywPdAA") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6808077277").split()))
-OWNER_ID  = getenv("OWNER_ID", "6808077277")
+API_ID = int(getenv("API_ID", "20554593")) 
+API_HASH = getenv("API_HASH", "2d9ae1ab2fc26b462b1741a4c99195f3") 
+BOT_TOKEN = getenv("BOT_TOKEN", "6231483162:AAGcDo-PXQgjLCTh5fP1hn75wSER9Ln599E")
+STRING_SESSION = getenv("STRING_SESSION", "BAAGVywPdAA") 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6756622304").split()))
+OWNER_ID  = getenv("OWNER_ID", "6756622304")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
 GROUP  = getenv("GROUP", "BlackCatServer")
-SUPPORT  = getenv("SUPPORT", "BlackCatFighters")
+SUPPORT  = getenv("SUPPORT", "darklightowner")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/6f725258d7fc2186c1296.jpg")
 PORN = [
         "https://telegra.ph/file/b7a1a42429a65f64e67af.mp4",
