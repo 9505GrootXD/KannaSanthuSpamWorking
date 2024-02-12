@@ -27,7 +27,7 @@ help_keyboard = InlineKeyboardMarkup( [[
 @bot.on_message(filters.command("start"))
 async def start(bot, message):
     await message.reply_text(
-        text="Hello my name is santhu spam bot iam an advanced spam bot to telegram groups cracking created in python pyrogram library you can host by using `/clone yourstringsession` enjoy fandaga",
+        text="Hello my name is vinay spam bot iam an advanced spam bot to telegram groups cracking created in python pyrogram library you can host by using `/clone yourstringsession` enjoy fandaga",
         reply_markup=start_keyboard,
     )
     
