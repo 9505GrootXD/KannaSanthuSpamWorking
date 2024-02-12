@@ -74,7 +74,7 @@ PORN = [
 
 
 ABUSE_SPAM = [
-          "Ni amma nu pandhulu denga ",
+    "Ni amma nu pandhulu denga ",
     "ni ammanu kukkalu denga",
     "Ni amma red puku bagundira",
     "ni amma nu dengite dhanni puku gorintakulaga panduthundi👅",
