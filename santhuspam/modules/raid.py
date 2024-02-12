@@ -10,7 +10,7 @@ from config.config import OWNER_ID, SUDO_USERS
 
 # RAIDING FEATURES
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], ["/", "!", "."]))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], ["/", "!", ".", "g"]))
 async def raid(xspam: Client, message: Message):  
       # Hero = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
       alt = message.text.split(" ")
@@ -60,7 +60,7 @@ async def raid(xspam: Client, message: Message):
 
 rusers = []
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["rraid", "replyraid"], ["/", ".", "!"]))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["rraid", "replyraid", "rr"], ["/", ".", "!", "g"]))
 async def rraid(xspam: Client, message: Message):
       global rusers
       alt = message.text.split(" ")
@@ -94,7 +94,7 @@ async def rraid(xspam: Client, message: Message):
           await message.reply_text("𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » .rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » .rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["drraid", "draid", "dreplyraid"], ["/", ".", "!"]))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["drraid", "draid", "dreplyraid", "drr"], ["/", ".", "!", "g"]))
 async def draid(xspam: Client, message: Message):
       global rusers
       alt = message.text.split(" ")
