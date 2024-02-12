@@ -74,7 +74,14 @@ PORN = [
 
 
 ABUSE_SPAM = [
-        "Ni amma red puku bagundira",
+          "Ni amma nu pandhulu denga ",
+   "ni ammanu kukkalu denga",
+   "Ni amma red puku bagundira",
+   "ni amma nu dengite dhanni puku gorintakulaga panduthundi👅",
+   "ni amma nu denguthunnappudu ni amma voice oh noi yaa yaa oh god yes come on oh noi yaa yaa 😂😂👅",
+   "ni akka puku midha honey pushi nakutha👅",
+   "ni amma puku midha na mudhu 👅",
+   "galiki puttina gali na koduku",
    "ni amma nu groot gadi madda kinda pandabettu",
    "ni amma nu santhu gadi madda kinda pandabettu",
    "ni amma nu pokemon gadi madda kinda pandabettu",
