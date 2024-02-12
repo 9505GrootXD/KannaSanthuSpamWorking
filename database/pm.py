@@ -4,10 +4,10 @@ from santhuspam.modules import mongodb
 collection = mongodb.pmpermit
 
 PM_MESSAGE = (
-    "[🥀 𝐇𝐢, 𝐈 𝐚𝐦 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐎𝐟 𝐀𝐦𝐚𝐥𝐚 , 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 😋 𝐦𝐲 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭.\n🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐒𝐨𝐦𝐞𝐭𝐢𝐦𝐞 𝐔𝐧𝐭𝐢𝐥𝐥 𝐌𝐲 𝐁𝐨𝐬𝐬 𝐓𝐞𝐥𝐮𝐠𝐮 𝐜𝐨𝐝𝐞𝐫𝐬 😎 𝐢𝐬 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐎𝐧𝐥𝐢𝐧𝐞, 𝐀𝐟𝐭𝐞𝐫 𝐓𝐡𝐚𝐭 𝐇𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐩𝐥𝐲 𝐘𝐨𝐮.\n😎 𝐏𝐥𝐞𝐚𝐬𝐞 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦 𝐇𝐞𝐫𝐞, 𝐄𝐥𝐬𝐞 𝐈 𝐖𝐢𝐥𝐥 𝐁𝐥𝐨𝐜𝐤 𝐘𝐨𝐮 🤟 𝐅𝐨𝐫 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐑𝐞𝐚𝐬𝐨𝐧𝐬, 𝐒𝐨 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 ✨ ...]"
+    "[🥀 𝐇𝐢, 𝐈 𝐚𝐦 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐎𝐟 𝐃𝐚𝐫𝐤𝐋𝐢𝐠𝐡𝐭 , 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 😋 𝐦𝐲 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭.\n🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐒𝐨𝐦𝐞𝐭𝐢𝐦𝐞 𝐔𝐧𝐭𝐢𝐥𝐥 𝐌𝐲 𝐁𝐨𝐬𝐬 𝐓𝐞𝐥𝐮𝐠𝐮 𝐜𝐨𝐝𝐞𝐫𝐬 😎 𝐢𝐬 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐎𝐧𝐥𝐢𝐧𝐞, 𝐀𝐟𝐭𝐞𝐫 𝐓𝐡𝐚𝐭 𝐇𝐞 𝐖𝐢𝐥𝐥 𝐑𝐞𝐩𝐥𝐲 𝐘𝐨𝐮.\n😎 𝐏𝐥𝐞𝐚𝐬𝐞 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦 𝐇𝐞𝐫𝐞, 𝐄𝐥𝐬𝐞 𝐈 𝐖𝐢𝐥𝐥 𝐁𝐥𝐨𝐜𝐤 𝐘𝐨𝐮 🤟 𝐅𝐨𝐫 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐑𝐞𝐚𝐬𝐨𝐧𝐬, 𝐒𝐨 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 ✨ ...]"
 )
 
-BLOCKED = "**I know your spammer chutiya your getting to block bye!"
+BLOCKED = "**I know your spammer chutiya your getting to block bye! naku telusu ra nuvu spam chesthavani block chesha guddha muskoni undu"
 
 LIMIT = 5
 
