@@ -88,6 +88,7 @@ ABUSE_SPAM = [
     "ni amma nu telegram owner gadi madda kinda pandabettu",
     "ni amma 👅",
     "ni akka 👅",
+    "Ni amma puku 👅👅👅 ni akka puku 👅👅👅 ni ammama puku 👅👅 ni vadhina puku 👅👅👅 ni chelli puku 👅👅 ni chelli frd puku 👅👅",
     "ni amma nu paiki athukoni gapa gapa gapa gapa gapa dengutha👅",
     "ni ammama 👅",
     "ni neethulu na athulatho samanam",
