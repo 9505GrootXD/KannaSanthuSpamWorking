@@ -73,9 +73,11 @@ PORN = [
 ]
 
 
-ABUSE_SPAM =  [
+ABUSE_SPAM = [
         "Ni ammanu pandhulu denga",
         "Ni ammanu kukkalu denga",
+        "Ni amma nu pandhulu denga",
+        "Ni amma puku 👅👅👅 ni akka puku 👅👅👅 ni ammama puku 👅👅 ni vadhina puku 👅👅👅 ni chelli puku 👅👅 ni chelli frd puku 👅👅",   
 ]
 
 
