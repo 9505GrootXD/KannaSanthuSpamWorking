@@ -11,8 +11,8 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6231483162:AAGcDo-PXQgjLCTh5fP1hn75wSER9Ln599E"
 STRING_SESSION = getenv("STRING_SESSION", "BQE5o2EAvFkTiLf5vk_SiaUNUZGVMNyZrwHF3bKiYvxN3RfvyWJL2pqcXhBYeubGDQDAX9Ug9z5-U_9E-uDDf3EK55tZPQn61YMa2Vj-HTrKsO-bRhbmzFUxnFw2zj86L6lmfATh3PnlBRDYMHWjfBRmNqBye4Hj9zof6E8Qke1AKt_qbW4CoyKe8H6aD-1GRuJU23wPhC8NvfnuXAWY5E2O1PlVlq97d_gU36cONqz813vSw5iBApUDioa7Yp8mHS1iO7v-Ijgs-KkFR41zJQiUWELUW3LeVfCP45iPV7HDla9PRReh3Elzm_zw6pV06ipDLq6SHkt7M5IJCTm6MxyViRER3AAAAAGSud_gAA") 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6756622304").split()))
 OWNER_ID  = getenv("OWNER_ID", "6756622304")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority")
-GROUP  = getenv("GROUP", "BlackCatServer")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://grootmusicnetwork:G4U9vqe8D44VnBF2@cluster0.h7frazn.mongodb.net/?retryWrites=true&w=majority")
+GROUP  = getenv("GROUP", "Grootstickers")
 SUPPORT  = getenv("SUPPORT", "darklightowner")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/a344f86ea9138f774542a.jpg")
 PORN = [
