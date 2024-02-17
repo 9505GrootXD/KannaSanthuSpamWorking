@@ -17,6 +17,10 @@
         "description": "Fill Api ID Take This Value From my.telegram.org",
         "value": ""
       },
+        "BOT_TOKEN": {
+        "description": "bot token @botfather ",
+        "value": ""
+      }, 
       "API_HASH": {
         "description": "Fill Api Hash Take This Value From my.telegram.org",
         "value": ""
